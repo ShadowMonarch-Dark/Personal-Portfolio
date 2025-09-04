@@ -2,7 +2,7 @@ import { useRef } from "react";
 import Card from "../components/Card";
 import { Globe } from "../components/globe";
 import CopyEmailButton from "../components/CopyEmailButton";
-import Frameworks from "../components/Frameworks";
+import { Frameworks } from "../components/Frameworks";
 
 const About = () => {
   const grid2Container = useRef();
@@ -66,16 +66,6 @@ const About = () => {
               text="Bit Manipulation"
               containerRef={grid2Container}
             />
-            {/* <Card
-              style={{ rotate: "-45deg", top: "70%", left: "25%" }}
-              text="Complexity Analysis"
-              containerRef={grid2Container}
-            /> */}
-            {/* <Card
-              style={{ rotate: "-45deg", top: "5%", left: "10%" }}
-              text="Data Structures"
-              containerRef={grid2Container}
-            /> */}
 
             <Card
               style={{ rotate: "30deg", top: "70%", left: "70%" }}
@@ -87,11 +77,6 @@ const About = () => {
               image="assets/logos/JavaScript(1).png"
               containerRef={grid2Container}
             />
-            {/* <Card
-              style={{ rotate: "-45deg", top: "5%", left: "10%" }}
-              image="assets/logos/JAVA(1).png"
-              containerRef={grid2Container}
-            /> */}
             <Card
               style={{ rotate: "-45deg", top: "5%", left: "10%" }}
               image="assets/logos/Python(1).png"
