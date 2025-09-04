@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "motion/react";
+
 function Navigation() {
   return (
     <ul className="nav-ul">
@@ -19,6 +20,11 @@ function Navigation() {
         </a>
       </li>
       <li className="nav-li">
+        <a className="nav-link" href="#profiles">
+          Profiles
+        </a>
+      </li>
+      <li className="nav-li">
         <a className="nav-link" href="#contact">
           Contact
         </a>
@@ -26,17 +32,20 @@ function Navigation() {
     </ul>
   );
 }
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
       <div className="mx-auto c-space max-w-7xl">
-        <div className="flex items-center justify-between py-2 sm:py-0">
+        {/* Increased navbar height */}
+        <div className="flex items-center justify-between py-2 sm:py-2">
           <a
             href="/"
-            className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
+            className="text-2xl font-bold transition-colors text-neutral-300 hover:text-white"
           >
-            Ali
+            Deepak ⚡
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -44,7 +53,7 @@ const Navbar = () => {
           >
             <img
               src={isOpen ? "assets/close.svg" : "assets/menu.svg"}
-              className="w-6 h-6"
+              className="w-7 h-7"
               alt="toggle"
             />
           </button>
@@ -53,15 +62,16 @@ const Navbar = () => {
           </nav>
         </div>
       </div>
+
       {isOpen && (
         <motion.div
           className="block overflow-hidden text-center sm:hidden"
           initial={{ opacity: 0, x: -10 }}
           animate={{ opacity: 1, x: 0 }}
           style={{ maxHeight: "100vh" }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.8 }}
         >
-          <nav className="pb-5">
+          <nav className="pb-6">
             <Navigation />
           </nav>
         </motion.div>

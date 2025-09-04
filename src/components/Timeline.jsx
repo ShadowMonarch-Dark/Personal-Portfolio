@@ -24,12 +24,12 @@ export const Timeline = ({ data }) => {
 
   return (
     <div className="c-space section-spacing" ref={containerRef}>
-      <h2 className="text-heading">My Work Experience</h2>
-      <div ref={ref} className="relative pb-20">
+      <h2 className="text-heading">Steps in My Dev Path</h2>
+      <div ref={ref} className="relative pb-16">
         {data.map((item, index) => (
           <div
             key={index}
-            className="flex justify-start pt-10 md:pt-40 md:gap-10"
+            className="flex justify-start pt-6 md:pt-20 md:gap-10"
           >
             <div className="sticky z-40 flex flex-col items-center self-start max-w-xs md:flex-row top-40 lg:max-w-sm md:w-full">
               <div className="absolute flex items-center justify-center w-10 h-10 rounded-full -left-[15px] bg-midnight">
