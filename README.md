@@ -2,7 +2,7 @@
 
 Hey there! I’m **Deepak**, a passionate **Frontend Developer** & **Competitive Programmer**. This is my personal portfolio showcasing projects, coding journey, and fun personalized reviews.
 
-🌐 **Live Portfolio:** [Click Here](https://your-vercel-link.vercel.app)
+🌐 **Live Portfolio:** [Click Here](https://personal-portfolio-1avl.onrender.com)
 
 ---
 
