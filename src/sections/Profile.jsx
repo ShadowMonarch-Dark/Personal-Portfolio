@@ -3,18 +3,18 @@ import React from "react";
 export default function Profile() {
   const profiles = [
     {
-      title: "Codeforces – 1257 Rating",
+      title: "Codeforces – 1271 Rating",
       description:
-        "Pupil on Codeforces with 1257 rating, solved 600+ problems and actively improving through contests.",
-      img: "assets/profilion/Codeforces(1).png",
+        "Pupil on Codeforces with 1271 rating, solved 600+ problems and actively improving through contests.",
+      img: "assets/profilion/Codeforces12.png",
       link: "https://codeforces.com/profile/ShadowMonarch",
     },
     {
-      title: "LeetCode – 1713+ Rating",
+      title: "LeetCode – 1834+ Rating",
       description:
-        "Solved 850+ problems with a rating of 1713+, focusing on mastering Data Structures and Algorithms.",
-      img: "assets/profilion/LEETCODE(20).png",
-      link: "https://leetcode.com/u/Jin-Woo_Shadow/",
+        "Solved 850+ problems with a rating of 1834+, focusing on mastering Data Structures and Algorithms.",
+      img: "assets/profilion/Leet12.png",
+      link: "https://leetcode.com/u/Monarch_Of_Death/",
     },
     {
       title: "CodeChef – 1763 Rating",
@@ -24,11 +24,11 @@ export default function Profile() {
       link: "https://www.codechef.com/users/abyss_monarch", // replace with yours
     },
     {
-      title: "AtCoder – 636+ Rating",
+      title: "AtCoder – 691+ Rating",
       description:
-        "Brown coder on AtCoder with a rating over 636, actively learning from global competitions.",
-      img: "assets/profilion/ATCODER.png",
-      link: "https://atcoder.jp/users/ShaDowGoD", // replace with yours
+        "Brown coder on AtCoder with a rating over 691, actively learning from global competitions.",
+      img: "assets/profilion/Atcoder12.png",
+      link: "https://atcoder.jp/users/Shadow_Lives", // replace with yours
     },
     {
       title: "Coding Ninjas – 1649 Rating",
@@ -38,11 +38,11 @@ export default function Profile() {
       link: "https://www.codingninjas.com/studio/profile/dkmillion", // replace
     },
     {
-      title: "Codolio – Global Rank 1507",
+      title: "Codolio – Global Rank 1300",
       description:
         "Codolio aggregates my profiles (CF, LC, CodeChef, etc.) with a current global rank of 1507.",
-      img: "assets/profilion/profileCard.png",
-      link: "https://www.codolio.com/profile/ShaDow_GOD", // replace
+      img: "assets/profilion/Codolio12.png",
+      link: "https://codolio.com/profile/LEVELING_UP", // replace
     },
   ];
 
