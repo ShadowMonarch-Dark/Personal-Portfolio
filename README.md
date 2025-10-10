@@ -30,13 +30,14 @@ _(Full project list in the portfolio itself!)_
 - Learned **React, TailwindCSS, C++**, and modern frontend tools
 - Built **interactive projects** with hover previews & animations
 
----
 
-## 🌟 Fun Reviews
+<!--## 🌟 Fun Reviews
+---
 
 - Raju: “25 din mein DSA master kar lunga… Result: rating bhi gaya 😭😂”
 - Babu Bhaiya: “Ye Baburao ka style hai!” – pointers dekhte hi segmentation fault 😅
 - Shyam: “Utha le re baba… recursion ka base case utha le!” 🤣
+-->
 
 ---
 
